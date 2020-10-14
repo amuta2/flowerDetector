@@ -17,18 +17,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HQh-Xt-LFw">
-                                <rect key="frame" x="37.5" y="144" width="300" height="300"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="HQh-Xt-LFw" secondAttribute="height" multiplier="1:1" id="O33-zc-j9c"/>
-                                    <constraint firstAttribute="height" constant="300" id="Zrk-ei-xm4"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="HQh-Xt-LFw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="I9y-ML-0vv"/>
-                            <constraint firstItem="HQh-Xt-LFw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sza-7B-wZs"/>
+                            <constraint firstItem="HQh-Xt-LFw" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="IKa-gS-lTM"/>
+                            <constraint firstAttribute="trailing" secondItem="HQh-Xt-LFw" secondAttribute="trailing" id="Qf1-CV-goz"/>
+                            <constraint firstItem="HQh-Xt-LFw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qhE-87-f1e"/>
+                            <constraint firstItem="HQh-Xt-LFw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yGX-sZ-Y3Q"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gM7-7f-oX6">
@@ -37,7 +35,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1015.9420289855074" y="137.94642857142856"/>
+            <point key="canvasLocation" x="1015.2" y="137.18140929535232"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2Z5-CD-FvK">
