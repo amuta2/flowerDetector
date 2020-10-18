@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		207BD24B253C846B00A402AE /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 207BD24A253C846B00A402AE /* FlowerClassifier.mlmodel */; };
 		20F1E72D25347C6500613A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1E72C25347C6500613A28 /* AppDelegate.swift */; };
 		20F1E72F25347C6500613A28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1E72E25347C6500613A28 /* SceneDelegate.swift */; };
 		20F1E73125347C6500613A28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F1E73025347C6500613A28 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		207BD24A253C846B00A402AE /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = "<group>"; };
 		20F1E72925347C6500613A28 /* flowerDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flowerDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F1E72C25347C6500613A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F1E72E25347C6500613A28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				20F1E73525347C6700613A28 /* Assets.xcassets */,
 				20F1E73725347C6700613A28 /* LaunchScreen.storyboard */,
 				20F1E73A25347C6700613A28 /* Info.plist */,
+				207BD24A253C846B00A402AE /* FlowerClassifier.mlmodel */,
 			);
 			path = flowerDetector;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207BD24B253C846B00A402AE /* FlowerClassifier.mlmodel in Sources */,
 				20F1E73125347C6500613A28 /* ViewController.swift in Sources */,
 				20F1E72D25347C6500613A28 /* AppDelegate.swift in Sources */,
 				20F1E72F25347C6500613A28 /* SceneDelegate.swift in Sources */,
